@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add this CSS in a separate CSS file or within a style tag in your component */
+
+nav ul {
+  list-style: none;
+  display: flex; /* Make the list items display in a row */
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+nav a {
+  padding: 8px 16px;
+  margin-left: 400px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Optional: Change the color of active link */
+nav a.active {
+  color: rgb(3, 3, 107);
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering, if needed */
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* min-height: 100vh;  */
+}
+
+.image-container {
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.customer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Adjust this value to control the vertical spacing */
+}
+
+/* Apply styles to the labels */
+input {
+  display: block; /* Labels are block-level elements */
+  margin-bottom: 5px; /* Adjust this value to control the space below each label */
+}
